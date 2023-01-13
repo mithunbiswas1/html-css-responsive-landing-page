@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+
+/* header{
+    height: 100px;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* Top Players Stylr */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background: #fff;
+    width: 870px;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 21px;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #562EFF;
+    margin-bottom: 30px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.players-list{
+    display: flex;
+    align-items: center;
+}
+
+.players img{
+    width: 56px;
+    height: 56px;
+}
+
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.players-list{
+    
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+.blog{
+    display: flex;
+    align-items: center;
+}
+
+.thumbnail img{
+    width: 224px;
+    height: 127px
+}
+
+.blogs{
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog-info{
+    margin-left: 16px;
+}
+
+.blog-title{
+    font-size: 20px;
+}
+
+.blog-author{
+    font-size: 16px;
+    color: #9f9f9f;
+    margin-top: 10px;
+}
+
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.course{
+    border-radius: 10px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+}
+
+.course-banner img{
+    width: 266px;
+    height: 141px;
+}
+
+.course-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+
+.course-info .filled{
+    color: #ffc014;
+}
+
+.course-info .empty{
+    color: #aeaeae;
+    opacity: 0.50;
+}
+
+.course-duration{
+    color: #FF4A60;
+    background-color: #FFE4E8;
+    border-radius: 14.6913px;
+    padding: 2px 10px;
+}
+
+.course-info{
+    color: #A2A2A2;
+}
